@@ -3,5 +3,9 @@
     <color name="colorPrimary">#00BCD4</color>
     <color name="colorPrimaryDark">#0097A7</color>
     <color name="textColorPrimary">#212121</color>
-    <color name="windowBackground">#009688</color>
+    <color name="windowBackground">#009670</color>
+    <color name="colorPrimary1">#00BC00</color>
+    <color name="colorPrimaryDark1">#009700</color>
+    <color name="textColorPrimary1">#212121</color>
+    <color name="windowBackground1">#009658</color>
 </resources>

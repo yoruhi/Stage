@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".LoginDisplayActivity"
             android:label="@string/guideForLogin"
+            android:theme="@style/AppTheme.test"
             />
 
     </application>

@@ -15,7 +15,8 @@
     <string name="keepOn">Login saved.</string>
     <string name="keepOff">Save your login?</string>
     <string name="sign">New Account :</string>
-    <string name="tutoLogin">Hi this a tutorial, to help you to log yourself easily and fast.</string>
+    <string name="tutoLogin">Hi this a tutorial, to help you to log yourself easily and fast.
+        The mail case is used to connect your adress mail to your medical account</string>
     <string name="guideForLogin">Guide for Login</string>
     <string name="menu_search">recherche</string>
     <string name="menu_refresh">refresh</string>

@@ -10,6 +10,11 @@
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
         <item name="android:windowBackground">@color/windowBackground</item>
     </style>
-
+    <style name="AppTheme.test" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary1</item>
+        <item name="android:windowBackground">@color/windowBackground1</item>
+    </style>
 
 </resources>
