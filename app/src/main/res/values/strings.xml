@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">StageNexmed</string>
+    <string name="brand">Brand</string>
+    <string name="back">back</string>
+    <string name="profile">Profile</string>
+    <string name="add">add</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="shelf">shelf</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mail">Mail</string>
+    <string name="password">Password</string>
+    <string name="forgotPaswword">Forgot your password ?</string>
+    <string name="connect">Connect</string>
+    <string name="keepOn">Login saved.</string>
+    <string name="keepOff">Save your login?</string>
+    <string name="sign">New Account :</string>
+    <string name="tutoLogin">Hi this a tutorial, to help you to log yourself easily and fast.</string>
+    <string name="guideForLogin">Guide for Login</string>
+    <string name="menu_search">recherche</string>
+    <string name="menu_refresh">refresh</string>
+    <string name="menu_help">help</string>
+    <string name="menu_about">about</string>
+    <string name="menu_settings">set</string>
+
+
+</resources>
