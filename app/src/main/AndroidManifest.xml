@@ -3,11 +3,13 @@
     package="net.farniertelecomnancy.alexandre.stagenexmed" >
 
     <application
+        android:uiOptions="splitActionBarWhenNarrow"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+            android:icon="@mipmap/ic_launcher"
             android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
@@ -18,8 +20,10 @@
         </activity>
         <activity android:name=".LoginDisplayActivity"
             android:label="@string/guideForLogin"
-            android:theme="@style/AppTheme.test"
-            />
+            android:logo="@drawable/ic_bewel_logo_small"
+            android:theme="@style/AppTheme"
+
+       />
 
     </application>
 

@@ -1,22 +1,19 @@
 package net.farniertelecomnancy.alexandre.stagenexmed;
 
-import android.app.ActionBar;
-import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
-
-public class LoginDisplayActivity extends ActionBarActivity {
-
+/**
+ * Created by alexandre on 16/07/2015.
+ */
+public class Shelf extends ActionBarActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.guide_login);
+        setContentView(R.layout.shelf);
 
 
 
@@ -26,11 +23,8 @@ public class LoginDisplayActivity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_guide, menu);
-       /*ActionBar actionBar = getActionBar();
-       actionBar.setLogo(getResources().getDrawable(R.drawable.ic_bewel_logo_small));
-       getActionBar().setHomeButtonEnabled(true);
-       getActionBar().setDisplayHomeAsUpEnabled(true);*/
+        inflater.inflate(R.menu.shelf_menu, menu);
+
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -42,7 +36,7 @@ public class LoginDisplayActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.menu_search) {
+        if (id == R.id.back) {
             onBackPressed();
         }
 
